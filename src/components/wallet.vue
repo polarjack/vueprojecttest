@@ -1,14 +1,15 @@
 <template>
   <div class="container">
     <h1 class="red">{{ myName }}</h1>
-    <Vuck></Vuck>
+    <vuck></vuck>
     <h1 class="colorful">Vuck You</h1>
   </div>
 </template>
 <script>
-import Vuck from "./formTest.vue"
+import vuck from "./formTest.vue"
 
 export default {
+  components: { vuck },
   data() {
     return {
       myName: "yoooo"
