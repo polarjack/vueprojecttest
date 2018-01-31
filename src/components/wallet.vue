@@ -1,11 +1,12 @@
 <template>
   <div class="container">
     <h1 class="red">{{ myName }}</h1>
-    <formTest></formTest>
+    <Vuck></Vuck>
+    <h1 class="colorful">Vuck You</h1>
   </div>
 </template>
 <script>
-import formTest from "./formTest.vue"
+import Vuck from "./formTest.vue"
 
 export default {
   data() {
@@ -18,6 +19,9 @@ export default {
 <style>
 .red {
   color: red;
+}
+.colorful {
+  color:antiquewhite;
 }
 </style>
 
